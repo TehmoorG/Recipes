@@ -1,0 +1,35 @@
+img,
+.text{
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: top;
+}
+
+img {
+    height: 600px;
+    width: auto;
+}
+
+.text {
+    border: 2px solid brown;
+    height :fit-content;
+    width: 70%;
+    padding: 1em;
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 2em;
+}
+
+ol, ul{
+    margin-top: -4px;
+}
+
+.note {
+    border-top: 2px solid brown;
+    height :fit-content;
+    box-sizing: border-box;
+    font-size: small;
+}

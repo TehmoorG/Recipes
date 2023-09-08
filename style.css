@@ -1,0 +1,46 @@
+/*align everything in main page*/
+.row * img, .links a {
+    display: inline-block;
+    width: 335px;
+    text-align: center;
+    padding: 0 50px 5px;
+}
+
+.row {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.5; 
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: -1px;
+}
+/*Stylistic choices now*/
+.row img {
+    height: 502.5px;
+    box-shadow: inset;
+    
+}
+
+.links {
+    border-top: 2px solid;
+    border-top-style: groove;
+}
+
+a {
+    font-size: larger;
+    color:#C99700;
+}
+
+body {
+    background-color: #faf4d3;
+}
+
